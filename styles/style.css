@@ -1,0 +1,670 @@
+@font-face {
+    font-family: 'Onest';
+    src: url('../fonts/Onest.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mirra';
+    src: url('../fonts/Mirra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Felidae';
+    src: url('../fonts/Felidae.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Doloman Pavljenko';
+    src: url('../fonts/DolomanPavljenko.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+p {
+    font-family: 'Doloman Pavljenko';
+    color: #464562;
+}
+
+h1 {
+    font-family: 'Felidae';
+    color: #08043a;
+}
+
+hr {
+    background-color: #08043a;
+    border: 1px solid #08043a;
+}
+
+body {
+    background: url('../images/background.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 430px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vanda {
+    margin-top: 300px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.vanda::after {
+    content: '';
+    background: url('../images/compas.png');
+    width: 623px;
+    height: 570px;
+    top: -292px;
+    right: 0px;
+    position: absolute;
+    background-size: contain;
+    opacity: 0.3;
+}
+
+.vanda::before {
+    background: url('../images/spot-without-back.png');
+    content: '';
+    left: -1393px;
+    top: 379px;
+    position: absolute;
+    width: 2056px;
+    height: 1028px;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    background-position: -130px -200px;
+    opacity: 0.7;
+    background-size: contain;
+    transform: rotate(106deg);
+}
+
+.vanda h1 {
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.vanda span {
+    font-family: 'Mirra';
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 105.6px;
+    text-align: center;
+}
+
+.vanda p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 19.26px;
+    text-align: center;
+}
+
+.fourth {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 100px;
+}
+
+.fourth h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+.fourth hr {
+    width: 100%;
+}
+
+.dear-friends {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.dear-friends h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.dear-friends p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.dear-friends hr {
+    width: 80%;
+}
+
+.meet-guests {
+    margin-top: 90px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.meet-guests::before {
+    background: url('../images/spot-without-back.png');
+    content: '';
+    left: 0px;
+    top: -843px;
+    position: absolute;
+    width: 2056px;
+    height: 1028px;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    background-position: -130px -200px;
+    opacity: 0.7;
+    background-size: contain;
+    transform: rotate(-51deg);
+}
+
+.meet-guests::after {
+    background: url('../images/spot-without-back.png');
+    content: '';
+    right: -168px;
+    top: -417px;
+    position: absolute;
+    width: 2056px;
+    height: 1028px;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+    background-size: contain;
+    transform: rotate(-147deg);
+}
+
+.meet-guests h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    text-align: center;
+}
+
+.meet-guests .clock {
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 105.6px;
+    text-align: center;
+}
+
+.love {
+    max-width: 315px;
+}
+
+.love p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 19.26px;
+    text-align: center;
+}
+
+.place {
+    margin-left: auto;
+    margin-top: 90px;
+    margin-bottom: 54px;
+}
+
+.place::before {
+    background: url('../images/spot-without-back.png');
+    content: '';
+    left: -702px;
+    top: 403px;
+    position: absolute;
+    width: 2056px;
+    height: 1028px;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+    background-size: contain;
+    transform: rotate(82deg);
+}
+
+.place h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.place hr {
+    width: 90%;
+    margin-left: auto;
+}
+
+.adress {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.adress::after {
+    content: '';
+    background: url('../images/paint.png');
+    width: 105px;
+    height: 194px;
+    bottom: -103px;
+    left: 59px;
+    position: absolute;
+    background-size: contain;
+    opacity: 0.3;
+}
+
+.adress p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.map {
+    position: relative;
+    width: 140px;
+    height: 165px;
+}
+
+.map::after {
+    content: '';
+    width: 1px;
+    height: 204px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #08043a;
+}
+
+.map::before {
+    content: '';
+    width: 160px;
+    height: 1px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #08043a;
+}
+
+.map a {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 54px;
+    height: 18px;
+    border-radius: 2px;
+    font-family: 'Doloman Pavljenko';
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 16.8px;
+    text-decoration: none;
+    color: #f1f0f6;
+    background-color: #08043a;
+    text-align: center;
+    overflow: hidden;
+}
+
+.map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dresscode {
+    margin-top: 150px;
+    margin-bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dresscode h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.8px;
+    text-align: center;
+}
+
+.dresscode hr {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.color-6 {
+    width: 136px;
+    height: 22px;
+}
+
+.color-1 {
+    background-color: #a7c2dd;
+}
+
+.color-2 {
+    background-color: #c8d9e9;
+}
+
+.color-3 {
+    background-color: #86a0bb;
+}
+
+.color-4 {
+    background-color: #4e7096;
+}
+
+.color-5 {
+    background-color: #141c23;
+}
+
+.color-6 {
+    background-color: #ffffff;
+}
+
+.woomen,
+.men {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.woomen {
+    padding-right: 20px;
+}
+
+.men {
+    padding-left: 20px;
+    margin-top: 72px;
+    margin-bottom: 120px;
+}
+
+.info-dresscode h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: center;
+}
+
+.info-dresscode p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 23.11px;
+    text-align: right;
+}
+
+.info-left {
+    text-align: left !important;
+}
+
+.info-right {
+    text-align: right !important;
+}
+
+.wishes {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 153px;
+}
+
+.wishes::after {
+    content: '';
+    background: url('../images/paint.png');
+    width: 105px;
+    height: 194px;
+    bottom: -168px;
+    left: -33px;
+    position: absolute;
+    background-size: contain;
+    opacity: 0.3;
+    transform: scaleX(-1);
+}
+
+.wishes h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.wishes p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 23.11px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.accept {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.accept::after {
+    content: '';
+    background: url('../images/paint.png');
+    width: 51px;
+    height: 95px;
+    top: 17px;
+    left: 0px;
+    position: absolute;
+    background-size: contain;
+    opacity: 0.3;
+}
+
+.accept::before {
+    content: '';
+    background: url('../images/paint.png');
+    width: 51px;
+    height: 95px;
+    bottom: 17px;
+    right: 0px;
+    position: absolute;
+    background-size: contain;
+    opacity: 0.3;
+    transform: scaleX(-1);
+}
+
+.accept h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: center;
+}
+
+.accept p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 19.26px;
+    text-align: center;
+    margin-bottom: 92px;
+    margin-top: 24px;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.label-container label {
+    font-family: 'Doloman Pavljenko';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 19.26px;
+    text-align: left;
+    color: #464562;
+}
+
+.label-container input {
+    border: 0px;
+    border-bottom: #08043a 1px solid;
+    width: 278px;
+    background: transparent;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+.label-container input::placeholder {
+    font-family: 'Doloman Pavljenko';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 19.26px;
+    text-align: left;
+    color: #46456280;
+}
+
+.will-notwill {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.will,
+.notwill,
+.submit {
+    cursor: pointer;
+}
+
+.will-notwill h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: center;
+}
+
+.submit {
+    font-family: 'Felidae';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: center;
+    color: #08043a;
+    background-color: rgba(0, 125, 215, 0);
+    border: 0px;
+    transition: all ease-in-out 0.4s;
+}
+
+.submit:hover,
+.submit:focus {
+    transform: scale(1.1) rotate(6deg);
+}
+
+.questions {
+    margin-top: 130px;
+    margin-bottom: 86px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.questions::before {
+    background: url('../images/spot-without-back.png');
+    content: '';
+    left: -1254px;
+    top: 83px;
+    position: absolute;
+    width: 1960px;
+    height: 968px;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+    background-size: contain;
+    transform: rotate(-77deg);
+}
+
+.questions h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 39.6px;
+    text-align: center;
+}
+
+.questions hr {
+    width: 35%;
+}
+
+.questions p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 23.11px;
+    text-align: center;
+}
+
+.end {
+    margin-bottom: 20px;
+}
+
+.end p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 23.11px;
+    text-align: center;
+}
+
+.selected {
+    border-bottom: #08043a 1px solid;
+}

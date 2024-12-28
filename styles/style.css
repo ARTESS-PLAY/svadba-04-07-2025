@@ -53,7 +53,7 @@ hr {
 }
 
 body {
-    background: url('../images/background.jpg');
+    background: url('../images/background.webp');
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -79,7 +79,7 @@ body {
 
 .vanda::after {
     content: '';
-    background: url('../images/compas.png');
+    background: url('../images/compas.webp');
     width: 623px;
     height: 570px;
     top: -292px;
@@ -90,7 +90,7 @@ body {
 }
 
 .vanda::before {
-    background: url('../images/spot-without-back.png');
+    background: url('../images/spot-without-back.webp');
     content: '';
     left: -1393px;
     top: 379px;
@@ -186,7 +186,7 @@ body {
 }
 
 .meet-guests::before {
-    background: url('../images/spot-without-back.png');
+    background: url('../images/spot-without-back.webp');
     content: '';
     left: 0px;
     top: -843px;
@@ -202,7 +202,7 @@ body {
 }
 
 .meet-guests::after {
-    background: url('../images/spot-without-back.png');
+    background: url('../images/spot-without-back.webp');
     content: '';
     right: -168px;
     top: -417px;
@@ -248,7 +248,7 @@ body {
 }
 
 .place::before {
-    background: url('../images/spot-without-back.png');
+    background: url('../images/spot-without-back.webp');
     content: '';
     left: -702px;
     top: 403px;
@@ -285,7 +285,7 @@ body {
 
 .adress::after {
     content: '';
-    background: url('../images/paint.png');
+    background: url('../images/paint.webp');
     width: 105px;
     height: 194px;
     bottom: -103px;
@@ -463,7 +463,7 @@ body {
 
 .wishes::after {
     content: '';
-    background: url('../images/paint.png');
+    background: url('../images/paint.webp');
     width: 105px;
     height: 194px;
     bottom: -168px;
@@ -499,7 +499,7 @@ body {
 
 .accept::after {
     content: '';
-    background: url('../images/paint.png');
+    background: url('../images/paint.webp');
     width: 51px;
     height: 95px;
     top: 17px;
@@ -511,7 +511,7 @@ body {
 
 .accept::before {
     content: '';
-    background: url('../images/paint.png');
+    background: url('../images/paint.webp');
     width: 51px;
     height: 95px;
     bottom: 17px;
@@ -622,7 +622,7 @@ body {
 }
 
 .questions::before {
-    background: url('../images/spot-without-back.png');
+    background: url('../images/spot-without-back.webp');
     content: '';
     left: -1254px;
     top: 83px;

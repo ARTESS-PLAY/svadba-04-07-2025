@@ -105,7 +105,7 @@ document.querySelector('.submit').addEventListener('click', function () {
         });
     } else {
         // Если ошибок нет, выполняем AJAX-запрос
-        errorContainer.style.color = 'green';
+        errorContainer.style.color = '#464562';
         errorContainer.textContent = 'Спасибо! Форма успешно отправлена.';
         console.log('тут ajax');
 

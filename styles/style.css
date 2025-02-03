@@ -546,6 +546,10 @@ body {
     margin-bottom: 60px;
 }
 
+.label-container--sec {
+    margin-bottom: 22px;
+}
+
 .label-container label {
     font-family: 'Doloman Pavljenko';
     font-size: 20px;
@@ -667,4 +671,10 @@ body {
 
 .selected {
     border-bottom: #08043a 1px solid;
+}
+
+.accept .accept_info {
+    margin-bottom: 26px;
+    margin-top: 0;
+    max-width: 185px;
 }
